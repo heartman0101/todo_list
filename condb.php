@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $username = "root";
-$password = "65500706960";
-$dbname = "todo_list";
+$password = "Your password";
+$dbname = "Your database name";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
